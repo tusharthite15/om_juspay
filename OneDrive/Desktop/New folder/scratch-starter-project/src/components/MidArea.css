@@ -1,0 +1,39 @@
+/* MidArea.css */
+
+.mid-area {
+    flex: 1; /* Allow this area to grow */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scrolling */
+    padding: 1rem; /* Padding for spacing */
+    border-left: 1px solid #e5e7eb; /* Light gray border */
+    display: flex; /* Flex container */
+    flex-direction: column; /* Stack children vertically */
+  }
+  
+  .mid-area-title {
+    font-weight: bold; /* Bold title */
+    margin-bottom: 1rem; /* Space below title */
+  }
+  
+  .movement-button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    width: 167px;
+    height: 34px;
+    white-space: nowrap;
+    transition: background-color 0.3s;
+  }
+  
+  .movement-button:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+  }
+  
+  .movement-list {
+    gap: 0.5rem; /* Space between buttons */
+    display: flex; /* Flex container for buttons */
+    flex-direction: column; /* Stack buttons vertically */
+  }
+  
